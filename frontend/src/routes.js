@@ -9,7 +9,7 @@ export default function Routes() {
     //JSX -> html into javascript
     <BrowserRouter>
       <Route path="/" exact component={Login} />
-      <Route path="/main" component={Main} />
+      <Route path="/dev/:id" component={Main} />
     </BrowserRouter>
   );
 }
