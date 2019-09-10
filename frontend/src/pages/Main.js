@@ -25,7 +25,9 @@ export default function Main({ match }) {
   }, [match.params.id]);
 
   //like and dislike
-  async function handleLike(id) {}
+  async function handleLike(id) {
+    console.log("teste");
+  }
 
   return (
     <div className="main-container">
